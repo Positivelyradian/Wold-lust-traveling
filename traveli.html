@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <style>
+        /* This makes the background fill the whole screen */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            /* Replace 'background.jpg' with your downloaded file name */
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                        url('background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* The Glass Card Effect */
+        .glass-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 50px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        /* The Explore Button */
+        .explore-btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background: white;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .explore-btn:hover {
+            background: #e67e22; /* Changes to orange on hover */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <div class="glass-box">
+            <h1>TRAVEL THE WORLD</h1>
+            <p>Ready for your next adventure?</p>
+            <br>
+           <a href="web.html" class="explore-btn">EXPLORE</a>
+        </div>
+    </div>
+
+</body>
+</html>
+</section>
